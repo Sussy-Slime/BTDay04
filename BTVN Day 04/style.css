@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  background-color: black;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.header ul.header__nav {
+  list-style: none;
+  display: flex;
+}
+.header ul.header__nav li.app {
+  list-style: none;
+  background: black;
+  padding: 1px 34px;
+}
+
+a {
+  background: black;
+  color: inherit;
+  text-decoration: none;
+}
+
+.item:hover {
+  background-color: white;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
